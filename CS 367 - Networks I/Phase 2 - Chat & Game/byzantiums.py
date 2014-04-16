@@ -91,11 +91,6 @@ def remove_player(sock):
         if sock == person.socket:
             players.remove(person)
             broadstat("(sstat({}))".format(current_players_stats()))
-            # try:
-            #     sock.close()
-            #     connections.remove(sock)
-            # except:
-            #     pass
 
 
 def find_player_by_sock(sock):
