@@ -1,0 +1,57 @@
+Script started on Mon 07 Apr 2014 12:02:25 PM PDT
+cheungr@CF405-08:~/UNIXENV$ gcc -o msh -Wall -g msh.c
+cheungr@CF405-08:~/UNIXENV$ ,.[K[K,.[K[K./msh
+% ls
+assign1  assign1~  minishell.c~  msh  msh.c  msh.c~
+% ls -l
+total 42
+-rw-r--r-- 1 cheungr students     0 Apr  7 12:01 assign1
+-rw-r--r-- 1 cheungr students  1507 Apr  4 14:13 assign1~
+-rw-r--r-- 1 cheungr students  2108 Apr  4 13:55 minishell.c~
+-rwxr-xr-x 1 cheungr students 12054 Apr  7 12:01 msh
+-rw-r--r-- 1 cheungr students  2284 Apr  7 11:20 msh.c
+-rw-r--r-- 1 cheungr students  2330 Apr  4 14:17 msh.c~
+%      ls    -l
+total 42
+-rw-r--r-- 1 cheungr students     0 Apr  7 12:01 assign1
+-rw-r--r-- 1 cheungr students  1507 Apr  4 14:13 assign1~
+-rw-r--r-- 1 cheungr students  2108 Apr  4 13:55 minishell.c~
+-rwxr-xr-x 1 cheungr students 12054 Apr  7 12:01 msh
+-rw-r--r-- 1 cheungr students  2284 Apr  7 11:20 msh.c
+-rw-r--r-- 1 cheungr students  2330 Apr  4 14:17 msh.c~
+%    ls
+assign1  assign1~  minishell.c~  msh  msh.c  msh.c~
+% cal
+     April 2014       
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6 [7m 7[27m  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30           
+                      
+%     date
+Mon Apr  7 12:02:53 PDT 2014
+%  echo hello hhello   what
+hello hhello what
+% whoami
+cheungr
+% pwd
+/home/cheungr/UNIXENV
+% who
+cheungr  tty8         2014-04-07 11:59 (:0)
+cheungr  pts/0        2014-04-07 12:02 (:0.0)
+cheungr  pts/2        2014-04-07 11:59 (:0.0)
+% w
+ 12:03:31 up  1:09,  3 users,  load average: 0.02, 0.09, 0.07
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+cheungr  tty8     :0               11:59    1:11m  2.76s  0.22s init --user
+cheungr  pts/0    :0.0             12:02    3.00s  0.00s  0.00s script assign1
+cheungr  pts/2    :0.0             11:59    1:23   0.03s  0.03s /bin/bash
+% echooooo
+exec: No such file or directory
+% ^\Quit
+cheungr@CF405-08:~/UNIXENV$ exit
+exit
+
+Script done on Mon 07 Apr 2014 12:03:48 PM PDT
