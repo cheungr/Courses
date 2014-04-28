@@ -1,0 +1,80 @@
+Script started on Sun 27 Apr 2014 07:41:55 PM PDT
+cheungr@CF414-14:~/work352/msh$ make
+gcc -g -Wall   -c -o msh.o msh.c
+gcc -g -Wall   -c -o builtin.o builtin.c
+gcc -g -Wall   -c -o arg_parse.o arg_parse.c
+gcc -g -Wall   -c -o expand.o expand.c
+gcc -g -Wall msh.o builtin.o arg_parse.o expand.o -o msh
+cheungr@CF414-14:~/work352/msh$ ./msh
+% echo $$
+13822
+% echo $$$$
+1382213822
+% echo ${NAME}
+
+% envset NAME cheungr
+% echo ${NAME}
+cheungr
+% echo ${PATH}
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/central/bin:/usr/central/bin
+% echo ${NAME} ${PATH}
+cheungr /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/central/bin:/usr/central/bin
+% envunset NAME
+% echo ${NAME}
+
+% echo ${}
+
+% envset NAME
+usage: envset name value
+% envunset
+usage: envunset name
+% ls
+arg_parse.c  builtin.c	CVS	  expand.o  msh    msh.o    RoyTest.txt
+arg_parse.o  builtin.o	expand.c  Makefile  msh.c  proto.h  TryTest.txt
+% cd notadir
+cd: notadir: No such file or directory 
+% cd
+% ls
+301			    public_html
+330			    quotes.html
+aaa.lisp		    ropes.ads
+Application Data	    ropes-concat_impl.adb
+cs352s14		    ropes-test_utils.adb
+data			    SLP.patch
+defense			    speech_tools
+Desktop			    speech_tools-2.1-release.tar.gz
+Documents		    Temp
+doodle			    Templates
+Downloads		    test
+Old			    work352
+old_n			    workspace
+Pictures
+% exit 23
+cheungr@CF414-14:~/work352/msh$ echo $?
+23
+cheungr@CF414-14:~/work352/msh$ mkdir newdir
+cheungr@CF414-14:~/work352/msh$ cd newdir
+cheungr@CF414-14:~/work352/msh/newdir$ cvs -d /home/cheungr/cs352s14/CVSrep get  
+-r ASSIGNMENT-3 msh
+cvs checkout: Updating msh
+U msh/Makefile
+U msh/arg_parse.c
+U msh/builtin.c
+U msh/expand.c
+U msh/msh.c
+U msh/proto.h
+cheungr@CF414-14:~/work352/msh/newdir$ cd msh
+cheungr@CF414-14:~/work352/msh/newdir/msh$ make
+gcc -g -Wall   -c -o msh.o msh.c
+gcc -g -Wall   -c -o builtin.o builtin.c
+gcc -g -Wall   -c -o arg_parse.o arg_parse.c
+gcc -g -Wall   -c -o expand.o expand.c
+gcc -g -Wall msh.o builtin.o arg_parse.o expand.o -o msh
+cheungr@CF414-14:~/work352/msh/newdir/msh$ ./msh
+% make clean
+rm -rf msh *o *~
+% exit
+cheungr@CF414-14:~/work352/msh/newdir/msh$ exit
+exit
+
+Script done on Sun 27 Apr 2014 07:44:44 PM PDT

@@ -1,0 +1,48 @@
+Script started on Sun 27 Apr 2014 07:40:46 PM PDT
+cheungr@CF414-14:~/work352/msh$ cd /home/phil/public/cs352/testa3
+cheungr@CF414-14:/home/phil/public/cs352/testa3$ ./try
+Getting CVS tag ASSIGNMENT-3
+making ...
+testing ...
+Big script output same
+Good exit status
+
+Testing Errors
+% Test: Next line should have a missing } error
+% msh: no matching } 
+% Test: Next two lines should be cd errors
+% cd: notadir: No such file or directory 
+% cd: Bad address 
+% Test: Next line should be an expansion overflow error
+% msh: expansion too long 
+% Test: Error Testing Done
+% 
+Tests done!
+View INFO? y
+cvs checkout: Updating msh
+U msh/Makefile
+U msh/arg_parse.c
+U msh/builtin.c
+U msh/expand.c
+U msh/msh.c
+U msh/proto.h
+total 4
+-rwx---r-x 1 cheungr students 3271 Apr 26 15:48 arg_parse.c
+-rwx---r-x 1 cheungr students 3358 Apr 27 17:28 builtin.c
+drwxr-xr-x 2 cheungr students    6 Apr 27 19:41 CVS
+-rw----r-- 1 cheungr students 2810 Apr 27 19:15 expand.c
+-rw----r-- 1 cheungr students  467 Apr 27 14:51 Makefile
+-rw----r-- 1 cheungr students 1891 Apr 27 19:01 msh.c
+-rwx---r-x 1 cheungr students  298 Apr 27 14:51 proto.h
+gcc -g -Wall   -c -o msh.o msh.c
+gcc -g -Wall   -c -o builtin.o builtin.c
+gcc -g -Wall   -c -o arg_parse.o arg_parse.c
+gcc -g -Wall   -c -o expand.o expand.c
+gcc -g -Wall msh.o builtin.o arg_parse.o expand.o -o msh
+Big test of msh.
+Exit status was 37
+Remove /home/cheungr/testa3? y
+Removing /home/cheungr/testa3
+cheungr@CF414-14:/home/phil/public/cs352/testa3$ exit
+
+Script done on Sun 27 Apr 2014 07:41:23 PM PDT
