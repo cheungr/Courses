@@ -63,22 +63,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cheungr_assign3.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="cheungr_assign3.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cheungr_assign3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="3630">
-              <caret line="69" column="78" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runningavg.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/runningavg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22479564" vertical-offset="0" max-vertical-offset="734">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.31326783" vertical-offset="1605" max-vertical-offset="3600">
+              <caret line="126" column="90" selection-start-line="126" selection-start-column="63" selection-end-line="130" selection-end-column="25" />
+              <folding>
+                <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+                <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+                <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+                <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+                <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+                <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,10 +97,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="205" />
-    <option name="y" value="22" />
-    <option name="width" value="1058" />
-    <option name="height" value="878" />
+    <option name="x" value="550" />
+    <option name="y" value="109" />
+    <option name="width" value="1370" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -121,7 +118,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -132,28 +129,58 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheungr_assign3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheungr_assign3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheungr_assign3" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheungr_assign3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cheungr_assign3" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editor.preferences.folding" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/prey-android-client" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.JavaFX" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -427,14 +454,16 @@
       <updated>1369256439723</updated>
       <workItem from="1398894607155" duration="663000" />
       <workItem from="1398899863029" duration="4000" />
+      <workItem from="1401681677441" duration="120000" />
+      <workItem from="1401692678286" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667000" />
+    <option name="totallyTimeSpent" value="1210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="22" width="1058" height="878" extended-state="0" />
+    <frame x="550" y="109" width="1370" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -454,10 +483,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15314835" sideWeight="0.6567164" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20374016" sideWeight="0.6567164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15587349" sideWeight="0.6567164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3432836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -493,9 +522,39 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cheungr_assign3.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3630">
+          <caret line="69" column="78" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="78" />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runningavg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="405">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cheungr_assign3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="3630">
           <caret line="69" column="78" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="78" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,7 +570,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3630">
           <caret line="18" column="74" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -551,7 +617,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,7 +648,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,7 +663,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="122" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="122" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +693,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,7 +708,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -623,15 +738,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cheungr_assign3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="3630">
-          <caret line="69" column="78" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="78" />
-          <folding />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +759,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/runningavg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22479564" vertical-offset="0" max-vertical-offset="734">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3808948" vertical-offset="0" max-vertical-offset="827">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cheungr_assign3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31326783" vertical-offset="1605" max-vertical-offset="3600">
+          <caret line="126" column="90" selection-start-line="126" selection-start-column="63" selection-end-line="130" selection-end-column="25" />
+          <folding>
+            <marker date="1370415046000" expanded="true" signature="2224:2300" placeholder="CREATE TABLE..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="2351:2389" placeholder="INSERT INTO ..." />
+            <marker date="1370415046000" expanded="true" signature="2439:2459" placeholder="DROP TABLE T..." />
+            <marker date="1370415046000" expanded="true" signature="2516:2562" placeholder="SELECT * FRO..TempStore..." />
+            <marker date="1370415046000" expanded="true" signature="3669:3710" placeholder="SELECT Name ..company..." />
+            <marker date="1370415046000" expanded="true" signature="3784:3881" placeholder="SELECT Trans..pricevolume..." />
+          </folding>
         </state>
       </provider>
     </entry>
